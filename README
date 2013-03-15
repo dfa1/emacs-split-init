@@ -5,12 +5,12 @@ Split init for GNU Emacs
 Setup
 -----
 
-$ hg clone https://bitbucket.org/dfa/split-init
+$ hg clone https://bitbucket.org/dfa/emacs-split-init
 
-Put split-init in `load-path', then add to your  ~/.emacs the following setup:
+Put 'emacs-split-init' directory in `load-path', then add to your ~/.emacs:
 
   (require 'split-init) 
   (load-split-init "~/.emacs.d/")
 
-files such as 01-foo.el, 99-bar.el will be automatically loaded.
+files such as 01-foo.el, 99-bar.el will be automatically loaded according to the numeric prefix.
 
