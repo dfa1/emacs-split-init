@@ -5,7 +5,7 @@ Split init for GNU Emacs
 Setup
 -----
 
-$ hg clone https://bitbucket.org/dfa/emacs-split-init
+$ git clone https://github.com/dfa1/emacs-split-init
 
 Put 'emacs-split-init' directory in `load-path', then add to your ~/.emacs:
 
